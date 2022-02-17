@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1645120251 source:d:\lab08\prj\testdriver\main.cpp
+	<iostream>
+	<iomanip>
+	<cmath>
+	"ModulesVasylenko.h"
+	<locale.h>
+	<windows.h>
+
+1644957276 d:\lab08\prj\modulesvasylenko.h
+	<cmath>
+
