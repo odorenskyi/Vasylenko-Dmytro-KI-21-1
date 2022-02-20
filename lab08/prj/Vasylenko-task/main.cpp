@@ -1,8 +1,9 @@
 #include <iostream>
+#include <locale.h>
 #include "ModulesVasylenko.h"
 #include <locale>
 #include <windows.h>
-#include <locale.h>
+
 
 using namespace std;
 
