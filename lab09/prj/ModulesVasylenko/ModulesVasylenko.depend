@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1645655418 source:d:\lab9modules\modulesvasylenko\main.cpp
+	"ModulesVasylenko.h"
+	<cmath>
+	<fstream>
+	<string>
+	<ctime>
+	<bitset>
+
+1645654501 d:\lab9modules\modulesvasylenko\modulesvasylenko.h
+	<string>
+
