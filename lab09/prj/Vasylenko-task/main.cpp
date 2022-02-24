@@ -9,65 +9,65 @@ void j_s_calculation()
 {
     int x, y, z;
 
-    cout << "Введiть число х: ";
+    cout << "Enter С…: ";
     cin >> x;
-    cout << "х у шiстнадцятковiй системi числення: " << hex << x << dec << endl;
-    cout << "Введiть число у: ";
+    cout << "С… in 16 number system: " << hex << x << dec << endl;
+    cout << "Enter Сѓ: ";
     cin >> y;
-    cout << "y у шiстнадцятковiй системi числення: " << hex << y << dec << endl;
-    cout << "Введiть число z: ";
+    cout << "y in 16 number system: " << hex << y << dec << endl;
+    cout << "Enter z: ";
     cin >> z;
-    cout << "z у шiстнадцятковiй системi числення: " << hex << z << dec << endl;
+    cout << "z in 16 number system: " << hex << z << dec << endl;
     cout << "S = " << s_calculation(x,y, z);
 }
 
 void z_task_9_1()
 {
     double price;
-    cout << "Введiть суму покупки у гривнях: ";
+    cout << "Enter the purchase amount in UAH: ";
     cin >> price;
-    cout << "Кiлькiсть нарахованих бонусiв: " << Bonus9_1(price).bonus << "\nСума до сплати: " << Bonus9_1(price).pay << " грн." << endl;
+    cout << "Number of accrued bonuses: " << Bonus9_1(price).bonus << "\nAmount to be paid: " << Bonus9_1(price).pay << " UAH " << endl;
 }
 
 void x_task_9_2()
 {
     float t;
-    cout << "Введiть кiлькiсть градусiв за шкалою Фаренгейта: ";
+    cout << "Enter the number of degrees on the Fahrenheit scale: ";
     cin >> t;
-    cout << "Конвертованi градуси у шкалу Цельсiя: " << Temperature9_2(t) << endl;
+    cout << "Converted degrees to Celsius: " << Temperature9_2(t) << endl;
 }
 
 void c_task_9_3()
 {
     int n;
-    cout << "Введiть цiле число від 0 до 51950: ";
+    cout << "Enter an integer from 0 to 51950: ";
     do
     {
         cin >> n;
         if (n>51950 || n<0)
-                 cout << "Некоректно введенi данi, число повинно бути цiлим та від 0 до 51950. Спробуйте ще раз!" << endl;
+                 cout << "Incorrectly entered data, the number must be an integer from 0 to 51950. Please try again!" << endl;
     }while (n>51950 || n<0);
    if((n>>4)&1)
-        cout <<"Кiлькiсть двiйкових одиниць у числi "<< n << ": " << Binary9_3(n) << endl;
+        cout <<"Number of binary units in the number "<< n << ": " << Binary9_3(n) << endl;
     else
-        cout <<"Кiлькiсть двiйкових нулiв у числi "<< n << ": " << Binary9_3(n) << endl;
+        cout <<"The number of binary zeros in the number "<< n << ": " << Binary9_3(n) << endl;
 }
 
 int main()
 {
     char *locale=setlocale(LC_ALL, "");
-    cout << "Виконав студент групи КІ-21-1 Василенко Д.М.\n"
+    cout << "Created by Dima Vasylenko, a student of the KI-21-1 group\n"
             "--------------------------------------------\n" << endl;
 
     char symbol;
     char command;
     do
     {
-    cout << "\nВведiть символ (латиницею):\n"
-            "j - для виклику функцiї s_calculation;\n"
-            "z - щоб дiзнатись кiлькiсть нарахованих бонусiв та суму до сплати (функцiя до задачi 9.1);\n"
-            "x - щоб конвертувати градуси за шкалою Фаренгейта у шкалу Цельсiя (функцiя до задачi 9.2);\n"
-            "с - щоб дiзнатись кiлькiсть двійкових одиниць або нулiв у числi (функцiя до задачi 9.3);\n" << endl;
+    cout << "\nEnter a character:\n"
+            "j - to call a function s_calculation;\n"
+            "z - to find out the number of accrued bonuses and the amount to be paid (function to 9.1);\n"
+            "x - to convert degrees on the Fahrenheit scale to the Celsius scale (function to 9.2);\n"
+            "СЃ - to find out the number of binary ones or zeros in the number (function to 9.3);\n" << endl;
     cin >> command;
     switch (command)
     {
@@ -77,17 +77,17 @@ int main()
         case 'z':
             z_task_9_1();
             break;
-        case 'х':
+        case 'С…':
         case 'x':
             x_task_9_2();
             break;
         case 'c':
-        case 'с':
+        case 'СЃ':
             c_task_9_3();
             break;
         default: cout << "\a";
     }
-    cout << "\nДля виходу з програми введiть v, або V, або A, iнакше повториться виконання програми." << endl;
+    cout << "\nTo exit the program, enter v, or V, or A, otherwise the program will run again." << endl;
     cin >> symbol;
     }while (!(symbol == 'v' || symbol == 'V' || symbol == 'A'));
 
