@@ -49,9 +49,9 @@ void task_10_1(char *OutFile,char *InFile)
 {
    ofstream outFile;
    outFile.open(OutFile);
-   outFile << "Ðîçðîáíèê: Âàñèëåíêî Ä.Ì.\n"
-              "ì. Êðîïèâíèöüêèé, Óêðà¿íà\n"
-              "ÖÍÒÓ, 2022\n";
+   outFile << "Ð Ð¾Ð·Ñ€Ð¾Ð±Ð½Ð¸Ðº: Ð’Ð°ÑÐ¸Ð»ÐµÐ½ÐºÐ¾ Ð”.Ðœ.\n"
+              "Ð¼. ÐšÑ€Ð¾Ð¿Ð¸Ð²Ð½Ð¸Ñ†ÑŒÐºÐ¸Ð¹, Ð£ÐºÑ€Ð°Ñ—Ð½Ð°\n"
+              "Ð¦ÐÐ¢Ð£, 2022\n";
 
    ifstream inFile;
    inFile.open(InFile);
@@ -61,20 +61,20 @@ void task_10_1(char *OutFile,char *InFile)
    int amount = 0;
    for (int i=0; i<fromFile.length(); i++)
    {
-        if (!(fromFile[i] == 'À' || fromFile[i] == 'à' || fromFile[i] == 'Å' || fromFile[i] == 'å' || fromFile[i] == 'ª' || fromFile[i] == 'º' || fromFile[i] == '²' || fromFile[i] == '³' || fromFile[i] == '¯' || fromFile[i] == '¿' || fromFile[i] == 'Î' || fromFile[i] == 'î' || fromFile[i] == 'Ó' || fromFile[i] == 'ó' || fromFile[i] == 'Þ' || fromFile[i] == 'þ' || fromFile[i] == 'È' || fromFile[i] == 'è'))
+        if (!(fromFile[i] == 'Ð' || fromFile[i] == 'Ð°' || fromFile[i] == 'Ð•' || fromFile[i] == 'Ðµ' || fromFile[i] == 'Ð„' || fromFile[i] == 'Ñ”' || fromFile[i] == 'Ð†' || fromFile[i] == 'Ñ–' || fromFile[i] == 'Ð‡' || fromFile[i] == 'Ñ—' || fromFile[i] == 'Ðž' || fromFile[i] == 'Ð¾' || fromFile[i] == 'Ð£' || fromFile[i] == 'Ñƒ' || fromFile[i] == 'Ð®' || fromFile[i] == 'ÑŽ' || fromFile[i] == 'Ð˜' || fromFile[i] == 'Ð¸'))
        amount++;
    }
-   outFile << "\nÊ³ëüê³ñòü ïðèãîëîñíèõ ë³òåð ó ñëîâ³ \"" << fromFile << "\": " << amount << endl;
+   outFile << "\nÐšÑ–Ð»ÑŒÐºÑ–ÑÑ‚ÑŒ Ð¿Ñ€Ð¸Ð³Ð¾Ð»Ð¾ÑÐ½Ð¸Ñ… Ð»Ñ–Ñ‚ÐµÑ€ Ñƒ ÑÐ»Ð¾Ð²Ñ– \"" << fromFile << "\": " << amount << endl;
 
-   string kraplina = "Ïðî ñåáå íå êàæè íåäîáðèõ ñë³â,"
-                     "Áî ìàº ñêàçàíå òàºìíó ñèëó."
-                     "Êàæè:""ß ñèëüíèé, âïåâíåíèé, ùàñëèâèé!"
-                     "² áóäå ñàì òàê, ÿê òè õîò³â!";
+   string kraplina = "ÐŸÑ€Ð¾ ÑÐµÐ±Ðµ Ð½Ðµ ÐºÐ°Ð¶Ð¸ Ð½ÐµÐ´Ð¾Ð±Ñ€Ð¸Ñ… ÑÐ»Ñ–Ð²,"
+                     "Ð‘Ð¾ Ð¼Ð°Ñ” ÑÐºÐ°Ð·Ð°Ð½Ðµ Ñ‚Ð°Ñ”Ð¼Ð½Ñƒ ÑÐ¸Ð»Ñƒ."
+                     "ÐšÐ°Ð¶Ð¸:""Ð¯ ÑÐ¸Ð»ÑŒÐ½Ð¸Ð¹, Ð²Ð¿ÐµÐ²Ð½ÐµÐ½Ð¸Ð¹, Ñ‰Ð°ÑÐ»Ð¸Ð²Ð¸Ð¹!"
+                     "Ð† Ð±ÑƒÐ´Ðµ ÑÐ°Ð¼ Ñ‚Ð°Ðº, ÑÐº Ñ‚Ð¸ Ñ…Ð¾Ñ‚Ñ–Ð²!";
 
     if(kraplina.find(fromFile) != string::npos)
-        outFile << "Cëîâî \"" << fromFile << "\" º â êðàïëèíö³ Â³òàë³ÿ ²âàùåíêà." << endl;
+        outFile << "CÐ»Ð¾Ð²Ð¾ \"" << fromFile << "\" Ñ” Ð² ÐºÑ€Ð°Ð¿Ð»Ð¸Ð½Ñ†Ñ– Ð’Ñ–Ñ‚Ð°Ð»Ñ–Ñ Ð†Ð²Ð°Ñ‰ÐµÐ½ÐºÐ°." << endl;
     else
-        outFile << "Cëîâî \"" << fromFile << "\" â³äñóòíº â êðàïëèíö³ Â³òàë³ÿ ²âàùåíêà." << endl;
+        outFile << "CÐ»Ð¾Ð²Ð¾ \"" << fromFile << "\" Ð²Ñ–Ð´ÑÑƒÑ‚Ð½Ñ” Ð² ÐºÑ€Ð°Ð¿Ð»Ð¸Ð½Ñ†Ñ– Ð’Ñ–Ñ‚Ð°Ð»Ñ–Ñ Ð†Ð²Ð°Ñ‰ÐµÐ½ÐºÐ°." << endl;
     outFile.close();
 }
 
@@ -83,13 +83,13 @@ void task_10_3(float x, float z, float b, char *OutFile)
    ofstream outFile;
    outFile.open(OutFile, ios::app);
 
-   outFile << "\nÐåçóëüòàò âèêîíàííÿ ôóíêö³¿ s_calculation: S = " << s_calculation(x,z,b) << endl;
+   outFile << "\nÐ ÐµÐ·ÑƒÐ»ÑŒÑ‚Ð°Ñ‚ Ð²Ð¸ÐºÐ¾Ð½Ð°Ð½Ð½Ñ Ñ„ÑƒÐ½ÐºÑ†Ñ–Ñ— s_calculation: S = " << s_calculation(x,z,b) << endl;
 
 
    if (b>0)
-        outFile<< "×èñëî " << b << " ó äâ³éêîâîìó êîä³: " << bitset<32>(b) << endl;
+        outFile<< "Ð§Ð¸ÑÐ»Ð¾ " << b << " Ñƒ Ð´Ð²Ñ–Ð¹ÐºÐ¾Ð²Ð¾Ð¼Ñƒ ÐºÐ¾Ð´Ñ–: " << bitset<32>(b) << endl;
     else
-        outFile<< "×èñëî " << b << " íå íàòóðàëüíå." << endl;
+        outFile<< "Ð§Ð¸ÑÐ»Ð¾ " << b << " Ð½Ðµ Ð½Ð°Ñ‚ÑƒÑ€Ð°Ð»ÑŒÐ½Ðµ." << endl;
    outFile.close();
 }
 

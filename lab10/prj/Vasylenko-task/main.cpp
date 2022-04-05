@@ -17,9 +17,9 @@ void task_10_2(char *OutInFile, string slovo)
    in_File.open(OutInFile, ios::app);
    char lastChar;
    lastChar = slovo.back();
-    in_File << "\n Ïåðøà ³ îñòàííÿ ë³òåðè ñëîâà: " << "[" << slovo[0] << "]" << " [" << lastChar << "]" << endl;
+    in_File << "\n ÐŸÐµÑ€ÑˆÐ° Ñ– Ð¾ÑÑ‚Ð°Ð½Ð½Ñ Ð»Ñ–Ñ‚ÐµÑ€Ð¸ ÑÐ»Ð¾Ð²Ð°: " << "[" << slovo[0] << "]" << " [" << lastChar << "]" << endl;
     time_t times = time(NULL);
-    in_File << "×àñ äîçàïèñó :"  << asctime (localtime( &times )) << endl;
+    in_File << "Ð§Ð°Ñ Ð´Ð¾Ð·Ð°Ð¿Ð¸ÑÑƒ :"  << asctime (localtime( &times )) << endl;
     in_File.close();
 
 }
@@ -34,7 +34,7 @@ int main()
     char in_file[] = "InPut.txt";
     char out_file[] = "OutPut.txt";
 
-    cout << "Ââåä³òü ñëîâî óêðà¿íñüêîþ ìîâîþ: ";
+    cout << "Ð’Ð²ÐµÐ´Ñ–Ñ‚ÑŒ ÑÐ»Ð¾Ð²Ð¾ ÑƒÐºÑ€Ð°Ñ—Ð½ÑÑŒÐºÐ¾ÑŽ Ð¼Ð¾Ð²Ð¾ÑŽ: ";
     string slovo;
     cin >> slovo;
     ofstream in_slovo("InPut.txt");
@@ -43,16 +43,16 @@ int main()
     task_10_1(out_file, in_file);
     task_10_2(in_file, slovo);
     float x, y, z, b;
-    cout << "Ââåä³òü ÷èñëî õ:";
+    cout << "Ð’Ð²ÐµÐ´Ñ–Ñ‚ÑŒ Ñ‡Ð¸ÑÐ»Ð¾ Ñ…:";
     cin >> x;
-    cout << "Ââåä³òü ÷èñëî y:";
+    cout << "Ð’Ð²ÐµÐ´Ñ–Ñ‚ÑŒ Ñ‡Ð¸ÑÐ»Ð¾ y:";
     cin >> y;
-    cout << "Ââåä³òü ÷èñëî z:";
+    cout << "Ð’Ð²ÐµÐ´Ñ–Ñ‚ÑŒ Ñ‡Ð¸ÑÐ»Ð¾ z:";
     cin >> z;
-    cout << "Ââåä³òü ÷èñëî b:";
+    cout << "Ð’Ð²ÐµÐ´Ñ–Ñ‚ÑŒ Ñ‡Ð¸ÑÐ»Ð¾ b:";
     cin >> b;
     task_10_3(x, z, b, out_file);
-    cout << "Ïåðåâ³ðòå âì³ñò ôàéë³â \"InPut.txt\" òà \"OutPut.txt\"!";
+    cout << "ÐŸÐµÑ€ÐµÐ²Ñ–Ñ€Ñ‚Ðµ Ð²Ð¼Ñ–ÑÑ‚ Ñ„Ð°Ð¹Ð»Ñ–Ð² \"InPut.txt\" Ñ‚Ð° \"OutPut.txt\"!";
     cin.get();
     cin.get();
     return 0;
