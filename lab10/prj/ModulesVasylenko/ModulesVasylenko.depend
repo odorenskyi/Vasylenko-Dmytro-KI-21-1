@@ -1,0 +1,34 @@
+# depslib dependency file v1.0
+1645655418 source:d:\lab9modules\modulesvasylenko\main.cpp
+	"ModulesVasylenko.h"
+	<cmath>
+	<fstream>
+	<string>
+	<ctime>
+	<bitset>
+
+1645654501 d:\lab9modules\modulesvasylenko\modulesvasylenko.h
+	<string>
+
+1648239500 source:c:\users\user\desktop\bmtp-git_lab10\lab10\prj\modulesvasylenko\main.cpp
+	"ModulesVasylenko.h"
+	<cmath>
+	<fstream>
+	<string>
+	<ctime>
+	<bitset>
+
+1648239062 c:\users\user\desktop\bmtp-git_lab10\lab10\prj\modulesvasylenko\modulesvasylenko.h
+	<string>
+
+1648239881 source:c:\users\user\desktop\bmtp-git_lab10\lab10\modulesvasylenko\main.cpp
+	"ModulesVasylenko.h"
+	<cmath>
+	<fstream>
+	<string>
+	<ctime>
+	<bitset>
+
+1648239881 c:\users\user\desktop\bmtp-git_lab10\lab10\modulesvasylenko\modulesvasylenko.h
+	<string>
+
