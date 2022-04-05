@@ -1,0 +1,80 @@
+# depslib dependency file v1.0
+1644963705 source:c:\users\axiom\desktop\Что-то нужное\bmtp\bmtp_lab8_for_vasilenko\vasylenko-dmytro-ki-21-1\lab08\prj\vasylenko-task\main.cpp
+	<iostream>
+	"ModulesVasylenko.h"
+	<locale>
+	<locale.h>
+	<windows.h>
+
+1644957276 c:\users\axiom\desktop\Что-то нужное\bmtp\bmtp_lab8_for_vasilenko\vasylenko-dmytro-ki-21-1\lab08\prj\modulesvasylenko.h
+	<cmath>
+
+1644963705 source:c:\users\user\downloads\telegram desktop\lab08\prj\vasylenko-task\main.cpp
+	<iostream>
+	"ModulesVasylenko.h"
+	<locale>
+	<locale.h>
+	<windows.h>
+
+1644957276 c:\users\user\downloads\telegram desktop\lab08\prj\modulesvasylenko.h
+	<cmath>
+
+1645120924 source:d:\lab08\prj\vasylenko-task\main.cpp
+	<iostream>
+	"ModulesVasylenko.h"
+	<locale>
+	<locale.h>
+	<windows.h>
+
+1644957276 d:\lab08\prj\modulesvasylenko.h
+	<cmath>
+
+1645655499 source:c:\users\user\desktop\lab08\prj\vasylenko-task\main.cpp
+	<iostream>
+	"ModulesVasylenko.h"
+	<limits>
+	<locale.h>
+
+1644957276 c:\users\user\desktop\lab08\prj\modulesvasylenko.h
+	<cmath>
+
+1645654501 d:\lab9modules\modulesvasylenko\modulesvasylenko.h
+	<string>
+
+1645656731 source:c:\users\user\desktop\bmtp-git_lab09\prj\vasylenko-task\main.cpp
+	<iostream>
+	"ModulesVasylenko.h"
+	<limits>
+	<locale.h>
+
+1645661866 source:c:\users\user\desktop\bmtp-git\vasylenko-dmytro-ki-21-1\lab09\prj\vasylenko-task\main.cpp
+	<iostream>
+	"ModulesVasylenko.h"
+	<limits>
+	<locale.h>
+
+1648970236 source:c:\users\user\desktop\bmtp-git_lab10\lab10\prj\vasylenko-task\main.cpp
+	<iostream>
+	<fstream>
+	<string>
+	<ModulesVasylenko.h>
+	<windows.h>
+	<locale.h>
+	<ctime>
+
+1648845150 c:\users\user\desktop\bmtp-git_lab10\lab10\prj\modulesvasylenko\modulesvasylenko.h
+	<string>
+
+1648244224 d:\modulesvasylenko11\modulesvasylenko\modulesvasylenko.h
+
+1648845284 source:c:\users\user\desktop\bmtp-git_lab10\lab10\prj\modulesvasylenko\main.cpp
+	"ModulesVasylenko.h"
+	<cmath>
+	<fstream>
+	<string>
+	<ctime>
+	<bitset>
+	<vector>
+	<math.h>
+	<cmath>
+
