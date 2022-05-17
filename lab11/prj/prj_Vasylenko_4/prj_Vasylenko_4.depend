@@ -1,0 +1,30 @@
+# depslib dependency file v1.0
+1652797534 source:c:\users\user\desktop\lab11\vasylenko-dmytro-ki-21-1\lab11\prj\prj_vasylenko_4\main.cpp
+	<iostream>
+	"ModulesIvanov.h"
+	"ModulesVasylenko.h"
+	"ModulesUstynovych.h"
+
+1652797470 c:\users\user\desktop\lab11\vasylenko-dmytro-ki-21-1\lab11\prj\modulesivanov\modulesivanov\modulesivanov.h
+	"struct_type_project_4.h"
+	<iostream>
+	<fstream>
+
+1652789938 c:\users\user\desktop\lab11\vasylenko-dmytro-ki-21-1\lab11\prj\struct_type_project_4.h
+
+1652788002 c:\users\user\desktop\lab11\vasylenko-dmytro-ki-21-1\lab11\prj\modulesvasylenko\modulesvasylenko.h
+	"struct_type_project_4.h"
+	<iostream>
+	<string>
+	<cstring>
+	<windows.h>
+	<fstream>
+
+1652797470 c:\users\user\desktop\lab11\vasylenko-dmytro-ki-21-1\lab11\prj\modulesustynovych\modulesustynovych.h
+	"struct_type_project_4.h"
+	<iostream>
+	<string>
+	<string.h>
+	<limits>
+	<ios>
+
