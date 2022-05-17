@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1652456063 source:c:\users\avoca\desktop\lab11\prj\modulesivanov\modulesivanov\main.cpp
+	"ModulesIvanov.h"
+
+1652357009 c:\users\avoca\desktop\lab11\prj\modulesivanov\modulesivanov\modulesivanov.h
+	"struct_type_project_4.h"
+	<iostream>
+	<fstream>
+
+1652283992 c:\users\avoca\desktop\lab11\prj\struct_type_project_4.h
+
