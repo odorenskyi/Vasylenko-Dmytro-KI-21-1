@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1652724629 source:c:\users\avoca\desktop\lab11\prj\modulesustynovych\main.cpp
+	"ModulesUstynovych.h"
+
+1652553462 c:\users\avoca\desktop\lab11\prj\modulesustynovych\modulesustynovych.h
+	"struct_type_project_4.h"
+	<iostream>
+	<string>
+	<string.h>
+	<limits>
+	<ios>
+
+1652283992 c:\users\avoca\desktop\lab11\prj\struct_type_project_4.h
+
