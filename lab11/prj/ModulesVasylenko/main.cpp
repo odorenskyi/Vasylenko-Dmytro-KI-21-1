@@ -6,7 +6,7 @@ void searchByCode(Settings *root)
     Settings * buff = root;
     string buffCode;
 
-    cout << "Óâåä³òü êîä òîâàðó äëÿ ïîøóêó: ";
+    cout << "Ð£Ð²ÐµÐ´Ñ–Ñ‚ÑŒ ÐºÐ¾Ð´ Ñ‚Ð¾Ð²Ð°Ñ€Ñƒ Ð´Ð»Ñ Ð¿Ð¾ÑˆÑƒÐºÑƒ: ";
     cin >> buffCode;
 
     while(buff != nullptr)
@@ -22,7 +22,7 @@ void searchByCode(Settings *root)
         else
             buff = buff->next;
         if(buff == nullptr)
-            cout << "Òîâàð â³äñóòí³é" << endl;
+            cout << "Ð¢Ð¾Ð²Ð°Ñ€ Ð²Ñ–Ð´ÑÑƒÑ‚Ð½Ñ–Ð¹" << endl;
     }
 }
 
