@@ -10,8 +10,8 @@ void dataCheck(char * fileName, Settings * root)
     fstream file(fileName, ios::binary | ios::in);
     if(file.peek() == std::ifstream::traits_type::eof())
     {
-        cout << "Ôàéë ïîðîæí³é..." << endl
-             << "²í³ö³àë³çàö³ÿ ñòîâðåííÿ ãîëîâè íîâîãî ñïèñêó..." << endl;
+        cout << "Ð¤Ð°Ð¹Ð» Ð¿Ð¾Ñ€Ð¾Ð¶Ð½Ñ–Ð¹..." << endl
+             << "Ð†Ð½Ñ–Ñ†Ñ–Ð°Ð»Ñ–Ð·Ð°Ñ†Ñ–Ñ ÑÑ‚Ð¾Ð²Ñ€ÐµÐ½Ð½Ñ Ð³Ð¾Ð»Ð¾Ð²Ð¸ Ð½Ð¾Ð²Ð¾Ð³Ð¾ ÑÐ¿Ð¸ÑÐºÑƒ..." << endl;
         addUnit(root);
     }
     else
@@ -22,14 +22,14 @@ void dataCheck(char * fileName, Settings * root)
 int menu(Settings * root, char * fileName)
 {
     short ask;
-    cout << "========Ìåíþ=======" << endl
-         << "(1)Äîäàòè åëåìåíò  " << endl
-         << "(2)Âèäàëèòè åëåìåíò" << endl
-         << "(3)Çàïèñàòè â txt  " << endl
-         << "(4)Çíàéòè çàïèñ    " << endl
-         << "(5)Âèéòè ç ïðîãðàìè" << endl
+    cout << "========ÐœÐµÐ½ÑŽ=======" << endl
+         << "(1)Ð”Ð¾Ð´Ð°Ñ‚Ð¸ ÐµÐ»ÐµÐ¼ÐµÐ½Ñ‚  " << endl
+         << "(2)Ð’Ð¸Ð´Ð°Ð»Ð¸Ñ‚Ð¸ ÐµÐ»ÐµÐ¼ÐµÐ½Ñ‚" << endl
+         << "(3)Ð—Ð°Ð¿Ð¸ÑÐ°Ñ‚Ð¸ Ð² txt  " << endl
+         << "(4)Ð—Ð½Ð°Ð¹Ñ‚Ð¸ Ð·Ð°Ð¿Ð¸Ñ    " << endl
+         << "(5)Ð’Ð¸Ð¹Ñ‚Ð¸ Ð· Ð¿Ñ€Ð¾Ð³Ñ€Ð°Ð¼Ð¸" << endl
          << endl
-         << "Óâåä³òü çíà÷åííÿ: ";
+         << "Ð£Ð²ÐµÐ´Ñ–Ñ‚ÑŒ Ð·Ð½Ð°Ñ‡ÐµÐ½Ð½Ñ: ";
     cin >> ask;
     cin.ignore();
     switch(ask)
